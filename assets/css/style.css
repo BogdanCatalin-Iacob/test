@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Spectral:wght@300&display=swap');
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Spectral, sans-serif;
+    color: #535959;
+}
