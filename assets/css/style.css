@@ -7,6 +7,60 @@
 }
 
 body {
+    background-color: #00da8b;
     font-family: Spectral, sans-serif;
     color: #535959;
 }
+
+/*---------------------------------------------------- Colours ------*/
+
+
+
+/*---------------------------------------------------- Header ------*/
+
+.logo h2{
+    font-size: 25px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.logo i{
+    font-size: 100%;
+}
+
+.logo a{
+    text-decoration: none;
+}
+
+.website-name {
+    font-family:  Lora, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+/* .menucontainer{
+    font-size: 0;
+} */
+
+#nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+#nav a{
+    font-size: 14px;
+    list-style-type: none;
+    text-decoration: none;
+    text-align: center;
+}
+
+#nav a:hover{
+    border-bottom: 1px solid #000;
+}
+
+.list-inline-item:not(:last-child){
+margin: 0;
+}
+
