@@ -13,15 +13,20 @@ body {
 }
 
 /*---------------------------------------------------- Colours ------*/
-
+.menu,
+.logo{
+    background-color: #000;
+}
 
 
 /*---------------------------------------------------- Header ------*/
 
 .logo h2{
+    font-family:  Lora, Arial, sans-serif;
+    font-weight: 700;
     font-size: 25px;
-    margin-top: 5px;
-    margin-left: 5px;
+    margin-top: 10px;
+    margin-left: 15px;
 }
 
 .logo i{
@@ -32,21 +37,22 @@ body {
     text-decoration: none;
 }
 
-.website-name {
-    font-family:  Lora, Arial, sans-serif;
-    font-weight: 700;
-    font-size: 40px;
-}
-
-/* .menucontainer{
-    font-size: 0;
-} */
+.menu{
+    margin-right: 10px;
+    }
 
 #nav{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 50px;
+    list-style-type: none;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+}
+
+#nav li{
+margin-right: 10px;
 }
 
 #nav a{
