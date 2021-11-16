@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&family=Spectral:wght@300&display=swap');
 
+/*---------------------------------------------------- General ------*/
+
 * {
     margin: 0;
     border: 0;
@@ -7,66 +9,103 @@
 }
 
 body {
-    background-color: #00da8b;
-    font-family: Spectral, sans-serif;
-    color: #535959;
-}
-
-/*---------------------------------------------------- Colours ------*/
-.menu,
-.logo{
-    background-color: #000;
+    background-color: #00c201;
+    font-family: Spectral, Helvetica, sans-serif;
+    color: #000;
 }
 
 
 /*---------------------------------------------------- Header ------*/
+header{
+    height: 50px;
+}
 
-.logo h2{
+.menu-box,
+.logo{
+    background:linear-gradient(180deg, #006f01 0%, #009801 35%, #00c201 100%);
+}
+
+h2, h3{
     font-family:  Lora, Arial, sans-serif;
     font-weight: 700;
-    font-size: 25px;
-    margin-top: 10px;
-    margin-left: 15px;
+    font-size: 1.5rem;
+    margin-top: 0.5em;
+    margin-left: 0.5em;
+    color: #80ffec;
 }
 
-.logo i{
-    font-size: 100%;
-}
-
-.logo a{
+.logo {
     text-decoration: none;
 }
 
-.menu{
-    margin-right: 10px;
-    }
+.logo i{
+    font-size: 120%;
+}
 
 #nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50px;
+    height: 100%;
     list-style-type: none;
-    letter-spacing: 2px;
-    margin-bottom: 0;
+    letter-spacing: 1px;
 }
+
 
 #nav li{
 margin-right: 10px;
 }
 
 #nav a{
-    font-size: 14px;
+    font-size: 1rem;
     list-style-type: none;
     text-decoration: none;
     text-align: center;
+    color: #FFF7FA;
 }
+
 
 #nav a:hover{
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid #66ff00;
+    font-size: 1.25em;
+    color: #66ff00;
 }
 
-.list-inline-item:not(:last-child){
-margin: 0;
+
+/*---------------------------------------------------- Footer ------*/
+
+footer{
+    height: 200px;
+    border: 1px solid #000;
 }
 
+.fallow-us{
+    text-align: center;
+}
+
+.social-media li{
+    display: inline;
+    margin: 10px;
+    }
+
+.social-media i{
+    color: #fff;
+    font-size: 3rem;
+}
+
+footer #nav{
+    display:list-item;
+    justify-content: left;
+    /* align-items:center;
+    height: 100%;
+    list-style-type: none;
+    letter-spacing: 1px; */
+}
+
+footer ul{
+    padding-left: 0;
+}
+
+footer h2{
+    text-align: center;
+}
